@@ -1,335 +1,798 @@
-.opening {
+@media screen and (max-width: 800px) {
+    .opening {
 
-    p {
-        color: green;
+        hr {}
+
+        h1 {}
+
+        p {
+            color: green;
+        }
+
+        text-align: center;
     }
 
-    text-align: center;
-}
+    .box {
+        position: absolute;
 
-.box {
-    position: absolute;
 
 
 
+        left: -1px;
+        top: 0x;
 
-    left: -1px;
-    top: 0x;
+        text-align: center;
 
-    text-align: center;
-
-}
-
-.container {
-    position: relative;
-    left: -40px;
-    top: -160px;
-    scale: 0.6;
-
-    text-align: center;
-}
-
-.mieu {
-
-    position: absolute;
-    left: -32px;
-    top: -70px;
-    scale: 0.6;
-
-    text-align: center;
-
-}
-
-.text {
-    position: absolute;
-
-    left: 580px;
-    top: 500px;
-    width: 23%;
-    text-align: center;
-}
-
-.abc {
-    position: relative;
-    width: 1500px;
-    height: 720px;
-
-
-
-
-
-
-}
-
-.pray {
-    position: absolute;
-    font: sans-serif;
-    color: white;
-    scale: 0.6;
-    width: 230px;
-    left: 40px;
-    top: 135px;
-    border: 2px solid rgb(245, 63, 31);
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(245, 63, 31);
-
-    text-align: center;
-}
-
-.pray:hover {
-    background-color: white;
-    border: 2px solid blue;
-    color: blue;
-    scale: 0.63;
-    cursor: pointer;
-}
-
-.huong {
-    position: absolute;
-    scale: 0.24;
-    left: 505px;
-    top: 82px;
-
-    text-align: center;
-}
-
-.huong:hover {
-    scale: 0.25;
-    cursor: pointer;
-}
-
-.hoa {
-    position: absolute;
-    scale: 0.25;
-    top: 54px;
-
-
-    text-align: center;
-}
-
-.hoa:hover {
-    scale: 0.26;
-
-}
-
-.denlong {
-    position: absolute;
-    scale: 0.25;
-
-    top: -37px;
-
-    text-align: center;
-}
-
-.denlong:hover {
-    scale: 0.26;
-}
-
-.icon {
-    position: absolute;
-    scale: 0.15;
-
-    top: -137px;
-
-    text-align: center;
-}
-
-.icon:hover {
-    scale: 0.16;
-
-}
-
-.khoi {
-    visibility: hidden;
-    position: absolute;
-    scale: 0.15;
-    left: 545px;
-    top: -342px;
-    opacity: 1;
-
-
-    text-align: center;
-    animation-name: khoitoa;
-    animation-fill-mode: forwards;
-    animation-play-state: paused;
-    animation-delay: 3s;
-    animation-duration: linear infinite;
-
-
-}
-
-.nhang {
-    visibility: hidden;
-    position: absolute;
-    scale: 0.15;
-    left: 360px;
-    top: -200px;
-
-    text-align: center;
-    animation-duration: 3s;
-    animation-name: thap;
-    animation-fill-mode: forwards;
-    animation-play-state: paused;
-
-
-
-
-}
-
-.nhang:hover {
-    scale: 0.16;
-
-
-
-
-}
-
-.test {
-    animation-duration: 3s;
-    animation-name: thap;
-    animation-fill-mode: forwards;
-}
-
-.nhang:target {
-
-    top: -200px;
-
-}
-
-@keyframes thap {
-    0% {}
-
-    1% {
-        visibility: visible;
     }
 
-    100% {
+    .container {
+        position: absolute;
+        left: 10px;
+        top: -160px;
+        scale: 0.6;
 
-        top: -132px;
-        visibility: visible;
-    }
-}
 
-.play {
-    visibility: hidden;
-    position: absolute;
-    scale: 0.25;
-    animation-play-state: running;
-    top: 5px;
-
-    text-align: center;
-
-}
-
-.pass {
-    visibility: hidden;
-
-    position: absolute;
-    top: 500px;
-    animation-duration: 30s;
-    animation-name: passed;
-    animation-fill-mode: forwards;
-    animation-play-state: paused;
-    animation-delay: 3s;
-}
-
-.pass2 {
-    visibility: hidden;
-    position: absolute;
-    top: 500px;
-    animation-duration: 30s;
-    animation-name: passed;
-    animation-fill-mode: forwards;
-    animation-play-state: paused;
-    animation-delay: 3s;
-}
-
-.pass3 {
-    visibility: hidden;
-    position: absolute;
-    top: 500px;
-    animation-duration: 30s;
-    animation-name: passed;
-    animation-fill-mode: forwards;
-    animation-play-state: paused;
-    animation-delay: 3s;
-}
-
-.pass4 {
-    visibility: hidden;
-    position: absolute;
-    top: 500px;
-    animation-duration: 30s;
-    animation-name: passed;
-    animation-fill-mode: forwards;
-    animation-play-state: paused;
-    animation-delay: 3s;
-}
-
-.pass5 {
-    visibility: hidden;
-    position: absolute;
-    top: 500px;
-    animation-duration: 30s;
-    animation-name: passed;
-    animation-fill-mode: forwards;
-    animation-play-state: paused;
-    animation-delay: 3s;
-
-}
-
-@keyframes passed {
-    0% {}
-
-    60% {
-        visibility: visible;
+        text-align: center;
     }
 
-    100% {
+    .mieu {
 
-        top: 85px;
-        visibility: visible;
+        position: absolute;
+        left: -550px;
+        top: -90px;
+        scale: 0.5;
+
+        text-align: center;
 
     }
-}
 
-@keyframes khoitoa {
+    .text {
+        position: absolute;
 
-    0% {
-        visibility: visible;
-        filter: blur(0px);
+        left: 105px;
+        top: 450px;
+        width: 50%;
+        text-align: center;
+
+    }
+
+
+    .text1 {
+        position: absolute;
+
+        left: 105px;
+        top: 600px;
+        width: 50%;
+        text-align: center;
+
+    }
+
+
+    .abc {
+        position: relative;
+        width: 1500px;
+        height: 720px;
+
+
+
+
+
+
+    }
+
+    .pray {
+
+        font: sans-serif;
+        color: white;
+        scale: 0.6;
+        width: 230px;
+        left: -625px;
+        top: 10px;
+        border: 2px solid rgb(245, 63, 31);
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(245, 63, 31);
+
+
+        text-align: center;
+    }
+
+    .pray:hover {
+        background-color: white;
+        border: 2px solid blue;
+        color: blue;
+        scale: 0.63;
+        cursor: pointer;
+    }
+
+    .huong {
+        position: absolute;
+        scale: 0.20;
+        left: -10px;
+        top: 55px;
+
+        text-align: center;
+    }
+
+    .huong:hover {
+        scale: 0.21;
+        cursor: pointer;
+    }
+
+    .hoa {
+        position: absolute;
+        scale: 0.22;
+        top: 30px;
+        left: -88px;
+
+
+        text-align: center;
+    }
+
+    .hoa:hover {
+        scale: 0.23;
+
+    }
+
+    .hoa1 {
+        position: absolute;
+        scale: 0.22;
+        top: 30px;
+        left: 88px;
+
+
+        text-align: center;
+    }
+
+    .hoa1:hover {
+        scale: 0.23;
+
+    }
+
+    .denlong {
+        position: absolute;
+        scale: 0.23;
+        left: -133px;
+        top: -38px;
+
+        text-align: center;
+    }
+
+    .denlong:hover {
+        scale: 0.25;
+    }
+
+    .denlong2 {
+        position: absolute;
+        scale: 0.25;
+        left: 107px;
+        top: -30px;
+
+        text-align: center;
+    }
+
+    .denlong2:hover {
+        scale: 0.25;
+    }
+
+    .icon {
+        position: absolute;
+        scale: 0.12;
+        left: -113px;
+
+        top: -150px;
+
+
+    }
+
+    .icon:hover {
+        scale: 0.125;
+
+    }
+
+    .khoi {
+        visibility: hidden;
+        position: absolute;
+        scale: 0.15;
+        left: 545px;
+        top: -342px;
         opacity: 1;
+
+
+        text-align: center;
+        animation-name: khoitoa;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+        animation-duration: linear infinite;
+
+
     }
 
-    20% {
+    .nhang {
+        visibility: hidden;
+        position: absolute;
+        scale: 0.13;
+        left: -155px;
+        top: -200px;
+
+        text-align: center;
+        animation-duration: 3s;
+        animation-name: thap;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
 
 
-        opacity: 0.3;
+
 
     }
 
-    40% {
+    .nhang:hover {
+        scale: 0.14;
 
+
+
+
+    }
+
+    .test {
+        animation-duration: 3s;
+        animation-name: thap;
+        animation-fill-mode: forwards;
+    }
+
+    .nhang:target {
+
+        top: -200px;
+
+    }
+
+    @keyframes thap {
+        0% {}
+
+        1% {
+            visibility: visible;
+        }
+
+        100% {
+
+            top: -150px;
+            visibility: visible;
+        }
+    }
+
+    .play {
+        visibility: hidden;
+        position: absolute;
+        scale: 0.25;
+        animation-play-state: running;
+        top: 5px;
+
+        text-align: center;
+
+    }
+
+    .pass {
+        visibility: hidden;
+
+        position: absolute;
+        top: 500px;
+        left: -60px;
+        scale: 0.6;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+    }
+
+    .pass2 {
+        visibility: hidden;
+        position: absolute;
+        top: 500px;
+        left: 330px;
+        scale: 0.6;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+    }
+
+    .pass3 {
+        visibility: hidden;
+        position: absolute;
+        top: 500px;
+        left: 1000px;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+    }
+
+    .pass4 {
+        visibility: hidden;
+        position: absolute;
+        top: 500px;
+        left: 1300px;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+    }
+
+    .pass5 {
+        visibility: hidden;
+        position: absolute;
+        top: 500px;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+
+    }
+
+    @keyframes passed {
+        0% {}
+
+        60% {
+            visibility: visible;
+        }
+
+        100% {
+
+            top: 85px;
+            visibility: visible;
+
+        }
+    }
+
+    @keyframes khoitoa {
+
+        0% {
+            visibility: visible;
+            filter: blur(0px);
+            opacity: 1;
+        }
+
+        20% {
+
+
+            opacity: 0.3;
+
+        }
+
+        40% {
+
+            opacity: 1;
+        }
+
+        60% {
+
+            opacity: 0.3;
+        }
+
+        80% {
+
+            opacity: 1;
+        }
+
+        100% {
+
+
+            visibility: visible;
+
+            opacity: 1;
+
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:800px) {
+    .opening {
+
+        p {
+            color: green;
+        }
+
+        text-align: center;
+    }
+
+    .box {
+        position: absolute;
+
+
+
+
+        left: -1px;
+        top: 0x;
+
+        text-align: center;
+
+    }
+
+    .container {
+        position: relative;
+        left: -40px;
+        top: -160px;
+        scale: 0.6;
+
+        text-align: center;
+    }
+
+    .mieu {
+
+        position: absolute;
+        left: -32px;
+        top: -70px;
+        scale: 0.6;
+
+        text-align: center;
+
+    }
+
+    .text {
+        position: absolute;
+
+        left: 580px;
+        top: 500px;
+        width: 23%;
+        text-align: center;
+    }
+
+    .text1 {
+        position: absolute;
+
+        left: 580px;
+        top: 500px;
+        width: 23%;
+        text-align: center;
+    }
+
+    .abc {
+        position: relative;
+        width: 1500px;
+        height: 720px;
+
+
+
+
+
+
+    }
+
+    .pray {
+        position: absolute;
+        font: sans-serif;
+        color: white;
+        scale: 0.6;
+        width: 230px;
+        left: 40px;
+        top: 135px;
+        border: 2px solid rgb(245, 63, 31);
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(245, 63, 31);
+
+        text-align: center;
+    }
+
+    .pray:hover {
+        background-color: white;
+        border: 2px solid blue;
+        color: blue;
+        scale: 0.63;
+        cursor: pointer;
+    }
+
+    .huong {
+        position: absolute;
+        scale: 0.24;
+        left: 505px;
+        top: 82px;
+
+        text-align: center;
+    }
+
+    .huong:hover {
+        scale: 0.25;
+        cursor: pointer;
+    }
+
+    .hoa {
+        position: absolute;
+        scale: 0.25;
+        top: 54px;
+        left: 405px;
+
+
+        text-align: center;
+    }
+
+    .hoa:hover {
+        scale: 0.26;
+
+    }
+
+    .hoa1 {
+        position: absolute;
+        scale: 0.25;
+        top: 54px;
+        left: 625px;
+
+
+        text-align: center;
+    }
+
+    .hoa1:hover {
+        scale: 0.26;
+
+    }
+
+    .denlong {
+        position: absolute;
+        scale: 0.25;
+        left: 360px;
+        top: -37px;
+
+        text-align: center;
+    }
+
+    .denlong:hover {
+        scale: 0.26;
+    }
+
+    .denlong2 {
+        position: absolute;
+        scale: 0.25;
+        left: 643px;
+        top: -37px;
+
+        text-align: center;
+    }
+
+    .denlong2:hover {
+        scale: 0.26;
+    }
+
+    .icon {
+        position: absolute;
+        scale: 0.15;
+        left: 400px;
+        top: -137px;
+
+        text-align: center;
+    }
+
+    .icon:hover {
+        scale: 0.16;
+
+    }
+
+    .khoi {
+        visibility: hidden;
+        position: absolute;
+        scale: 0.15;
+        left: 545px;
+        top: -342px;
         opacity: 1;
+
+
+        text-align: center;
+        animation-name: khoitoa;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+        animation-duration: linear infinite;
+
+
     }
 
-    60% {
+    .nhang {
+        visibility: hidden;
+        position: absolute;
+        scale: 0.15;
+        left: 360px;
+        top: -200px;
 
-        opacity: 0.3;
+        text-align: center;
+        animation-duration: 3s;
+        animation-name: thap;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+
+
+
+
     }
 
-    80% {
+    .nhang:hover {
+        scale: 0.16;
 
-        opacity: 1;
+
+
+
     }
 
-    100% {
+    .test {
+        animation-duration: 3s;
+        animation-name: thap;
+        animation-fill-mode: forwards;
+    }
+
+    .nhang:target {
+
+        top: -200px;
+
+    }
+
+    @keyframes thap {
+        0% {}
+
+        1% {
+            visibility: visible;
+        }
+
+        100% {
+
+            top: -132px;
+            visibility: visible;
+        }
+    }
+
+    .play {
+        visibility: hidden;
+        position: absolute;
+        scale: 0.25;
+        animation-play-state: running;
+        top: 5px;
+
+        text-align: center;
+
+    }
+
+    .pass {
+        visibility: hidden;
+
+        position: absolute;
+        top: 500px;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+    }
+
+    .pass2 {
+        visibility: hidden;
+        position: absolute;
+        top: 500px;
+        left: 300px;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+    }
+
+    .pass3 {
+        visibility: hidden;
+        position: absolute;
+        top: 500px;
+        left: 1000px;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+    }
+
+    .pass4 {
+        visibility: hidden;
+        position: absolute;
+        top: 500px;
+        left: 1300px;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+    }
+
+    .pass5 {
+        visibility: hidden;
+        position: absolute;
+        top: 500px;
+        animation-duration: 30s;
+        animation-name: passed;
+        animation-fill-mode: forwards;
+        animation-play-state: paused;
+        animation-delay: 3s;
+
+    }
+
+    @keyframes passed {
+        0% {}
+
+        60% {
+            visibility: visible;
+        }
+
+        100% {
+
+            top: 85px;
+            visibility: visible;
+
+        }
+    }
+
+    @keyframes khoitoa {
+
+        0% {
+            visibility: visible;
+            filter: blur(0px);
+            opacity: 1;
+        }
+
+        20% {
 
 
-        visibility: visible;
+            opacity: 0.3;
 
-        opacity: 1;
+        }
+
+        40% {
+
+            opacity: 1;
+        }
+
+        60% {
+
+            opacity: 0.3;
+        }
+
+        80% {
+
+            opacity: 1;
+        }
+
+        100% {
+
+
+            visibility: visible;
+
+            opacity: 1;
+
+        }
+
+
 
     }
 }
