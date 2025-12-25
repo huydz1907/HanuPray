@@ -12,6 +12,7 @@
         text-align: center;
     }
 
+
     .box {
         position: absolute;
 
@@ -38,8 +39,8 @@
     .mieu {
 
         position: absolute;
-        left: -550px;
-        top: -90px;
+        left: -600px;
+        top: -50px;
         scale: 0.5;
 
         text-align: center;
@@ -49,9 +50,9 @@
     .text {
         position: absolute;
 
-        left: 105px;
-        top: 450px;
-        width: 50%;
+        left: 35px;
+        top: 485px;
+        width: 300px;
         text-align: center;
 
     }
@@ -60,8 +61,8 @@
     .text1 {
         position: absolute;
 
-        left: 105px;
-        top: 600px;
+        left: 50px;
+        top: 630px;
         width: 50%;
         text-align: center;
 
@@ -79,6 +80,8 @@
 
 
     }
+
+
 
     .pray {
 
@@ -108,8 +111,8 @@
     .huong {
         position: absolute;
         scale: 0.20;
-        left: -10px;
-        top: 55px;
+        left: -63px;
+        top: 100px;
 
         text-align: center;
     }
@@ -122,8 +125,8 @@
     .hoa {
         position: absolute;
         scale: 0.22;
-        top: 30px;
-        left: -88px;
+        top: 70px;
+        left: -140px;
 
 
         text-align: center;
@@ -137,8 +140,8 @@
     .hoa1 {
         position: absolute;
         scale: 0.22;
-        top: 30px;
-        left: 88px;
+        top: 70px;
+        left: 37px;
 
 
         text-align: center;
@@ -152,8 +155,8 @@
     .denlong {
         position: absolute;
         scale: 0.23;
-        left: -133px;
-        top: -38px;
+        left: -183px;
+        top: 5px;
 
         text-align: center;
     }
@@ -165,8 +168,8 @@
     .denlong2 {
         position: absolute;
         scale: 0.25;
-        left: 107px;
-        top: -30px;
+        left: 60px;
+        top: 5px;
 
         text-align: center;
     }
@@ -178,9 +181,9 @@
     .icon {
         position: absolute;
         scale: 0.12;
-        left: -113px;
+        left: -165px;
 
-        top: -150px;
+        top: -110px;
 
 
     }
@@ -194,8 +197,8 @@
         visibility: hidden;
         position: absolute;
         scale: 0.15;
-        left: 545px;
-        top: -342px;
+        left: -20px;
+        top: -310px;
         opacity: 1;
 
 
@@ -213,8 +216,8 @@
         visibility: hidden;
         position: absolute;
         scale: 0.13;
-        left: -155px;
-        top: -200px;
+        left: -207px;
+        top: -150px;
 
         text-align: center;
         animation-duration: 3s;
@@ -256,7 +259,7 @@
 
         100% {
 
-            top: -150px;
+            top: -105px;
             visibility: visible;
         }
     }
@@ -277,9 +280,9 @@
 
         position: absolute;
         top: 500px;
-        left: -60px;
-        scale: 0.6;
-        animation-duration: 30s;
+        left: -50px;
+        scale: 0.4;
+        animation-duration: 50s;
         animation-name: passed;
         animation-fill-mode: forwards;
         animation-play-state: paused;
@@ -290,9 +293,9 @@
         visibility: hidden;
         position: absolute;
         top: 500px;
-        left: 330px;
-        scale: 0.6;
-        animation-duration: 30s;
+        left: 200px;
+        scale: 0.4;
+        animation-duration: 50s;
         animation-name: passed;
         animation-fill-mode: forwards;
         animation-play-state: paused;
@@ -303,8 +306,9 @@
         visibility: hidden;
         position: absolute;
         top: 500px;
-        left: 1000px;
-        animation-duration: 30s;
+        left: 70px;
+        scale: 0.5;
+        animation-duration: 45s;
         animation-name: passed;
         animation-fill-mode: forwards;
         animation-play-state: paused;
@@ -315,8 +319,9 @@
         visibility: hidden;
         position: absolute;
         top: 500px;
-        left: 1300px;
-        animation-duration: 30s;
+        left: 70px;
+        scale: 0.5;
+        animation-duration: 45s;
         animation-name: passed;
         animation-fill-mode: forwards;
         animation-play-state: paused;
@@ -327,13 +332,16 @@
         visibility: hidden;
         position: absolute;
         top: 500px;
-        animation-duration: 30s;
+        left: 70px;
+        scale: 0.5;
+        animation-duration: 45s;
         animation-name: passed;
         animation-fill-mode: forwards;
         animation-play-state: paused;
         animation-delay: 3s;
-
     }
+
+
 
     @keyframes passed {
         0% {}
@@ -487,6 +495,7 @@
 
 
     }
+
 
     .pray {
         position: absolute;
@@ -683,6 +692,7 @@
 
         position: absolute;
         top: 500px;
+
         animation-duration: 30s;
         animation-name: passed;
         animation-fill-mode: forwards;
